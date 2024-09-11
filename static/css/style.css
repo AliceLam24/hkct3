@@ -62,7 +62,7 @@ img {
   background-attachment: fixed;
   position: relative;
   overflow: hidden;
-  min-height: 200px; }
+  min-height: 50px; }
   #showcase-inner::before {
     content: '';
     position: absolute;
