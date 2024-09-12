@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'listings.apps.ListingsConfig',
     'realtors.apps.RealtorsConfig',
     'accounts.apps.AccountsConfig',
+    'contacts.apps.ContactsConfig',
 ]
 
 MIDDLEWARE = [
@@ -147,3 +148,9 @@ MESSAGE_TAGS = {
     messages.INFO: 'info',
     messages.WARNING : 'warning',
 }
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'alicelam1527@gmail.com'
+EMAIL_HOST_PASSWORD = 'Alison_work24'
+EMAIL_USE_TLS = True
